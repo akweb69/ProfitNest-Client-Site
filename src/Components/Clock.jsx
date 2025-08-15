@@ -45,7 +45,7 @@ const Clock = () => {
                 transition={{ duration: 0.5 }}
                 className="w-full"
             >
-                <div className="relative overflow-hidden rounded-2xl shadow-xl">
+                <div className="relative  overflow-hidden rounded-2xl shadow-xl">
                     {/* ব্যাকড্রপ গ্রেডিয়েন্ট */}
                     <div className="absolute inset-0 bg-gradient-to-r from-green-600 via-emerald-500 to-lime-500 opacity-90" />
                     {/* গ্লাস কার্ড */}
@@ -53,7 +53,7 @@ const Clock = () => {
                         {/* হেডার */}
                         <div className="flex items-center justify-between mb-4">
                             <h2 className="text-white/90 text-lg sm:text-xl font-semibold tracking-wide">
-                                ডিজিটাল ঘড়ি
+                                ঘড়ি
                             </h2>
                             <span className="text-white/80 text-xs sm:text-sm px-2 py-1 rounded-full bg-white/10 border border-white/20">
                                 {greeting}
@@ -80,7 +80,10 @@ const Clock = () => {
                             <span className="inline-block text-white/90 text-sm sm:text-base px-3 py-1 rounded-full bg-white/10 border border-white/20">
                                 {dateBn}
                             </span>
+
                         </div>
+
+
 
                         {/* ফুটার ডেকরেশন */}
                         <div className="mt-6">
@@ -101,3 +104,4 @@ const Clock = () => {
 };
 
 export default Clock;
+
